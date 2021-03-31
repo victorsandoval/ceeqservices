@@ -1,0 +1,21 @@
+{
+    "name": "victorsandoval/ceeqservices",
+    "description": "EEQ Servicios Web",
+    "authors": [
+        {
+            "name": "Victor Sandoval",
+            "email": "victorsandoval84@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EEQServices\\": "src/"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
